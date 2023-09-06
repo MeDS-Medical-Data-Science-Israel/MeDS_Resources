@@ -1,5 +1,13 @@
 # MeDS Resources  
 
+## Table Of Contents
+<!--ts-->
+   * [Courses](#courses-in-healthcare-ml)  
+   * [Podcasts](#podcasts-in-healthcare-ml) 
+<!--te-->
+
+
+
 ## Courses in Healthcare ML
 - [MIT 6.S897 Machine Learning for Healthcare - Spring 2019](https://www.youtube.com/watch?v=vof7x8r_ZUA&list=PLUl4u3cNGP60B0PQXVQyGNdCyCTDU1Q5j)
 - [MIT RES.EC-001 Exploring Fairness in Machine Learning  - Spring 2020](https://www.youtube.com/watch?v=hvcYz4yzS0w&list=PLUl4u3cNGP63IFQn8FklBOUhYVcmaxpOX)
