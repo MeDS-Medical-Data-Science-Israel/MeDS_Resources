@@ -2,13 +2,32 @@
 
 ## Table Of Contents
 <!--ts-->
-   * [Courses](#courses-in-healthcare-ml)  
-   * [Podcasts](#podcasts-in-healthcare-ml) 
+   * [Courses](#courses)  
+   * [Podcasts](#podcasts)
+      * [International](#international)
+      * [Local](#local)
+   * [Conferences and talks](#conferences-and-talks-in-healthcare-ml)
+   * [Conferences in Medical Imaging](#conferences-in-medical-imaging)
+   * [Natural Language Processing](#natural-language-processing)
+     * [Public Datasets](#public-datasets)
+     * [Pretrained BERTs](#pretrained-berts)
+     * [Parsers/NER](#parsers-ner)
+     * [Ontologies lexicons](#ontologies-lexicons)
+     * [PDF to text](#pdf-to-text)
+     * [NLP courses](#nlp-courses)
+   * [Computer Vision and Image Processing](#computer-vision-and-image-processing)
+     * [Public Datasets](#cv-public-datasets)
+   * [Structured (Tabular) Data](#tabular-data)
+     * [Public Datasets](#tabular-public-datasets)
+   * [Causal inference](#causal-inference)
+     * [Podcasts](#podcasts-causal-inference)
+     * [Courses](#courses-causal-inference)
+   * [Books](#books)
 <!--te-->
 
 
 
-## Courses in Healthcare ML
+## Courses 
 - [MIT 6.S897 Machine Learning for Healthcare - Spring 2019](https://www.youtube.com/watch?v=vof7x8r_ZUA&list=PLUl4u3cNGP60B0PQXVQyGNdCyCTDU1Q5j)
 - [MIT RES.EC-001 Exploring Fairness in Machine Learning  - Spring 2020](https://www.youtube.com/watch?v=hvcYz4yzS0w&list=PLUl4u3cNGP63IFQn8FklBOUhYVcmaxpOX)
 - [MIT Computational Biology: Genomes, Networks, Evolution, Health - Fall 2018](https://www.youtube.com/playlist?list=PLypiXJdtIca6GBQwDTo4bIEDV8F4RcAgt])
@@ -16,7 +35,7 @@
 - [Joachim Behar ML in Healthcare course in Technion](https://aim-lab.github.io/mlcourse)
 - [Uri Alon Systems Medicine course ](https://www.youtube.com/playlist?list=PLLbr-B8cNbo7qigzS2ZDbDVpvjX26tGJ4) - not ML, just Medicine
 
-## Podcasts in Healthcare ML
+## Podcasts 
 ### International
 - [Theory and Practice GV and Google AI](https://podcasts.google.com/feed/aHR0cHM6Ly9yc3MuYXJ0MTkuY29tL3RoZW9yeS1hbmQtcHJhY3RpY2U?ep=14)
 - [The AI health podcast Pranav Rajpurkar, Adriel Saporta, Oishi Banerjee, Marc Robbins](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9Dc1hmRG1CVw?ep=14)
@@ -46,7 +65,7 @@
 - [MIDL](https://2022.midl.io)
 
 
-## Natural Language Processing*
+## Natural Language Processing
 *Algorithmic Resources only (please put courses, podcasts & conferences in previous pages)
 ### Public Datasets 
 - [CADEC](https://data.csiro.au/collections/collection/CIcsiro:10948/SQcadec/RP1/RS25/RORELEVANCE/STsearch-by-keyword/RI1/RT1/) - medical forum posts on patient reported Adverse Drug Events, annotated for Named Entities
@@ -58,7 +77,7 @@
 - [Clinical Trials data(https://classic.clinicaltrials.gov/ct2/resources/download#DownloadAllData) - al available l clinical trials records from clinicaltrials.gov website, in XML format.
 
   
-### Public Datasets - Text+Image/Time series
+### Public Datasets: Text, Image and Time series
 - [MedPix (nih.gov)](https://medpix.nlm.nih.gov/home) - a free open-access online database of medical images, teaching cases, and clinical topics, integrating images and textual metadata
 - [physionet](https://physionet.org/content/ptb-xl/1.0.3/) - EKG with short textual description
 
@@ -68,7 +87,7 @@
 - [ClinicalBERT](https://github.com/EmilyAlsentzer/clinicalBERT) - BioBert + MIMIC 
 - [BlueBert](https://github.com/ncbi-nlp/bluebert) -  pre-trained on PubMed abstracts and clinical notes (MIMIC-III)
 
-### Parsers/NER
+### Parsers NER
 - [SciSpacy](https://allenai.github.io/scispacy/) - Spacy pipeline and NER trained on biomedical data
 - [Stanza biomedical](https://stanfordnlp.github.io/stanza/available_biomed_models.html) - NER trained on biomedical data and clinical notes (MIMIC-III)
 - [MetaMap](https://metamap.nlm.nih.gov/) (based on UMLS)
@@ -81,7 +100,7 @@
 - [EHRKit 2022](https://github.com/yale-lily/ehrkit-2022) - A Python Natural Language Processing Toolkit for Electronic Health Record Texts.
 - [BERN](https://github.com/dmis-lab/bern) - NER and entity linking (to MESH) for medical texts
 
-### Ontologies\lexicons
+### Ontologies lexicons
 - [UMLS](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/index.html)
 - [RadLex](http://radlex.org/) - radiology
 - [gamuts](http://www.gamuts.net/) - radiology
@@ -105,9 +124,9 @@
 - [Stanford CS224N](http://web.stanford.edu/class/cs224n/): NLP with Deep Learning
 - [NLP @ BIU](https://www.youtube.com/watch?v=r2xQzSPlBn4&t=41s&ab_channel=CSBIUStudents) עיבוד שפות טבעיות - פרופ' יואב גולדברג, פרופ' עידו דגן
 
-## Computer Vision / Image Processing
+## Computer Vision and Image Processing
 *Algorithmic Resources only (please put courses, podcasts & conferences in previous pages)
-### Public Datasets
+### CV Public Datasets
 - [Grand Challenge](https://grand-challenge.org/) - Datasets for challenges  in biomedical imaging. 
 - [keggle - chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) - chest images with and without pneumonia
 - [CT Medical Images | Kaggle](https://www.kaggle.com/datasets/kmader/siim-medical-images) - Kaggle dataset of CT images
@@ -115,9 +134,9 @@
 - [MIMIC III](https://mimic.mit.edu/) -  radiology scans dataset (chest x-rays)
 - [Brain MRI Images for Brain Tumor Detection | Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) - Kaggle dataset with Bain MRI images
 
-## Structured (Tabular) Dat
+## Tabular Data
 *Algorithmic Resources only (please put courses, podcasts & conferences in previous pages)
-### Public Datasets
+### Tabular Public Datasets
 - [National Ambulatory Care Survey (NAMCS)](https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm) - annual representative sample of ambulatory care visits in the USA (single visits). Documents reason for visit, diagnoses, prescriptions, tests and procedures ordered at visit, includes demographic, some medical history, some measurements and some recent lab values. 
 - [National Hospital Ambulatory Medical Care Survey (NHAMCS)](https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm), idem but recording emergency room visits. 
 - [Medical Expenditure Panel Survey](https://meps.ahrq.gov/data_stats/download_data_files.jsp) - ongoing survey of US households. Documents health and financial related data, including doctor visits and prescriptions (including diagnoses), health behavior, quality of life metrics, demographics, etc. Data on participants is collected every six months for 2.5 years.
@@ -125,12 +144,13 @@
 - [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/data.html) - all vaccine adverse event reports submitted to the CDC from around the world. Includes case-level data on demographics, vaccine, adverse event and outcome. Description of the adverse event both structured (medDRA) and free text.
 - [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers) - all drug adverse events submitted to the FDA from around the world. Includes case-level data on demographics, vaccine, adverse event and outcome. Description of the adverse event in only structured (medDRA) format. Free text can be received by special request.
 
+
 ## Causal inference
-### Podcasts
+### Podcasts Causal inference 
 - [Causal inference podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9jYXN1YWxpbmZlci5saWJzeW4uY29tL3Jzcw?ep=14): Lucy D'Agostino, McGowan and Ellie Murray (not necessary in healthcare )
 - [Yoshua Bengio answers questions](https://www.youtube.com/watch?app=desktop&v=M49TMqK5uCE&feature=youtu.be)
 
-## Courses
+## Courses Causal inference 
 - [Neil Brady course](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0)
 - [Stanford 2021](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
 - [Causal Diagrams course](https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your)
@@ -158,6 +178,7 @@ Useful Resources:
 - “Causal Inference in Statistics” by Judea Pearl et al. (2016) compressed view on Pearlian causality for a statistics educated audience
 
 From: [https://discuss.causality.link/](https://discuss.causality.link/)
+
 
 ### Books
 - [Scott Cunningham book on causal inference](https://mixtape.scunning.com/)
